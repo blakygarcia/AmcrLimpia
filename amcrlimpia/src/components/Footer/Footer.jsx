@@ -1,10 +1,11 @@
 import React from 'react'
+import './footer.css'
 
 export const Footer = () => {
   return (
    <>
     <div class="b-example-divider"></div>
-        <div class="container bg-dark" data-aos="fade-up">
+        <div class="container containerFooterPage" data-aos="fade-up">
             <footer class="py-3 my-4"/>
             <ul class="justify-content-center border-bottom pb-3 mb-3">
                 <li class="itemNavbar"><a href="index.php" class="textNav firstTextNav">Inicio</a></li>
