@@ -32,24 +32,7 @@ function Home() {
             </div>
         </div>
 
-        <hr class="featurette-divider"/>
-
-            <div class="row featurette" data-aos="fade-left" data-aos-easing="ease-in-sine">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading thirdTitle">¿Que Ofrecemos A Nuestros Proveedores?</h2>
-                    <p class="lead">Compramos y cargamos bajo nuestra propia supervisión en 3 sucursales del grupo, que
-                están ubicadas en los distritos de Grecia, San Carlos y San Ramón. Estas sucursales suministran el 50% de la
-                chatarra ferrosa que se contrata para su comercialización, el otro 50% se compra a proveedores
-                seleccionados en diferentes zonas de nuestro país, con los cuales se tiene una relación de largo plazo
-                basada en la confianza y la calidad. Nuestra propuesta como proveedores no se basa en la cantidad sino en la
-                calidad, queremos que nuestros compradores reciban lo adquirido con el menor riesgo posible en cuanto a
-                en cuanto a impurezas.</p>
-                </div>
-                <div class="col-md-5">
-                    <img src="../src/components/Home/hom/lo1.jpeg" alt="" id="homeImagesSQMetal" class="imgHomeBody03 rounded"/>
-
-                </div>
-            </div>
+      
 
             <hr class="featurette-divider"/>
      </div>

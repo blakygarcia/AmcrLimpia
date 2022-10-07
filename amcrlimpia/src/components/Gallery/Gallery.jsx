@@ -3,8 +3,9 @@ import './Gallery.css'
 
 const Gallery = () => {
   return (
-    <div>
-        <h1>Galeria</h1>
+    <div class="tam">
+      <div class="container1">
+      <h1>Galeria</h1>
         <div class="row">
             
   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
@@ -49,6 +50,8 @@ const Gallery = () => {
     />
   </div>
 </div>
+      </div>
+   
     </div>
   )
 }
