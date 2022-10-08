@@ -44,7 +44,7 @@ const Contact = () => {
         <div class="row100">
            
            <div class="col">
-                   <div class="inputBox textare">
+                   <div class="inputBox textarea">
                        <textarea required="required" ></textarea>
                        <span class="text">Mensaje</span>
                        <span class="line"></span>

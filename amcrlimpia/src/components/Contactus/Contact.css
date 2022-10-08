@@ -84,7 +84,8 @@ body{
     left: -10px;
        
 }
-.container .row100 .inputBox .line{
+.container .row100 .inputBox .line
+{
     position: absolute;
     bottom: 0;
     display: block;
@@ -110,16 +111,16 @@ body{
 
        
 }
-.container .row100 .inputBox .textarea textarea:focus +.text
-.container .row100.inputBox .textarea textarea:valid +.text
+.container .row100 .inputBox  textarea:focus + .text
+.container .row100.inputBox  textarea:valid + .text
 {
     top: -35px;
     left: -10px;
 
        
 }
-.container .row100 .inputBox textarea:focus ~.line,
-.container .row100 .inputBox textarea:valid ~.line
+.container .row100 .inputBox textarea:focus ~ .line,
+.container .row100 .inputBox  textarea:valid ~ .line
 {
     height: 100%;
 
