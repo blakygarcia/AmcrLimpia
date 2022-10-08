@@ -1,9 +1,10 @@
 import React from 'react'
+import './Contact.css'
 
 const Contact = () => {
   return (
-    <div class="container">
-        <h2>Contactenos</h2>
+    <div class="containerC1">
+        <h2 class="tite">Contactenos</h2>
         <div class="row100">
            
         <div class="col">
