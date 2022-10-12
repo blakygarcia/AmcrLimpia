@@ -15,7 +15,7 @@ function Home() {
             <p class="lead">Empresa dedicada principalmente a la comercialización de chatarra ferrosa de exportación, ubicada en Costa Rica, provincia de Alajuela. Contamos con personal administrativo con más de 14 años de experiencia en el manejo de chatarra ferrosa y no ferrosa.</p>
         </div>
         <div class="col-md-5">
-            <img src="../src/components/Home/hom/lo3.jpeg" alt="" id="homeImagesSQMetal" class="imgHomeBody01 rounded"/>
+            <img src="../src/components/Home/hom/lo1.jpeg" alt="" id="homeImagesSQMetal" class="imgHomeBody01 rounded"/>
         </div>
     </div>
 

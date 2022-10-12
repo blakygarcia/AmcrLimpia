@@ -10,7 +10,7 @@ function Nav() {
        <nav class="navbar navbar-expand-lg ">
 
   <div class="container-fluid ">
-  <img src="../src/components/navbar/image/lo.png" width="90" height="90" class="d-inline-block align-top rounded-circle" alt=""/>
+  <img src="../src/components/navbar/image/logo.jfif" width="90" height="90" class="d-inline-block align-top rounded-circle" alt=""/>
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
