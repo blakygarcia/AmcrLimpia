@@ -1,13 +1,14 @@
 .navbar{
-    background-color: black;
-    color: brown;
+    background-color:#000 ;
+    margin-left: 630px;
+    
 
 }
-a{
+
+
+
+li a{
+    margin-left: 50px;
     color: red;
 }
 
-
-li{
-    margin-left: 100px;
-}

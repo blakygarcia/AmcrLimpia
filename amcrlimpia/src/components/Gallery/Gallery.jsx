@@ -1,56 +1,74 @@
-import React from 'react'
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
 import './Gallery.css'
 
-const Gallery = () => {
+// import required modules
+import { EffectCoverflow, Pagination } from "swiper";
+
+export default function Gallery() {
   return (
-    <div>
-        <h1>Galeria</h1>
-        <div class="row">
-            
-  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
-    />
+    <>
+    <div className="row featurette" data-aos="fade-right" data-aos-easing="ease-in-sine">
+            <div class="col-md-6 order-md-4">
+                <h1 class="featurette-heading secondTitle">Galeria</h1>
+              
+            </div>
+            <div class="col-md-6 order-md-1">
+               
 
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Wintry Mountain Landscape"
-    />
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Mountains in the Clouds"
-    />
-
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
-    />
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Waves at Sea"
-    />
-
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Yosemite National Park"
-    />
-  </div>
-</div>
-    </div>
-  )
+            </div>
+            </div>
+      <Swiper
+      
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img src="../src/images/1.jpeg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="../src/images/2.jpeg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="../src/images/3.jpeg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="../src/images/4.jpeg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="../src/images/5.jpeg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="../src/images/6.jpeg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="../src/images/7.jpeg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="../src/images/8.jpeg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="../src/images/9.jpeg" />
+        </SwiperSlide>
+      </Swiper>
+    </>
+  );
 }
-
-export default Gallery
