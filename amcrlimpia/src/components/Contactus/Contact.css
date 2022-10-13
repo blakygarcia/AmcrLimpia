@@ -139,3 +139,19 @@ input[type="submit"]
 
 }
 
+
+@media screen {
+    body{
+       display: block;
+        min-height: 100vh;
+    
+    }
+    .col{
+        
+       
+        width: 100%;
+        margin-left: 5px;
+    }
+
+
+}
