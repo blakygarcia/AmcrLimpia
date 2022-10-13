@@ -24,7 +24,7 @@ function Nav() {
           <a class="nav-link active" aria-current="page" href="#">Quienes Somos</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link active" aria-current="page" href="#">Galeria</a>
+          <a class="nav-link active" aria-current="page" href="#Gallery">Galeria</a>
         </li>
         <li class="nav-item ">
           <a class="nav-link active" aria-current="page" href="#">Contactenos</a>

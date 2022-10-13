@@ -14,7 +14,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 export default function Gallery() {
   return (
     <>
-    <div className="row featurette" data-aos="fade-right" data-aos-easing="ease-in-sine">
+    <div className="row featurette"  data-aos-easing="ease-in-sine" id="Gallery">
             <div class="col-md-6 order-md-4">
                 <h1 class="featurette-heading secondTitle">Galeria</h1>
               
